@@ -2,25 +2,20 @@ body {
     background: linear-gradient(
         to top,
         white 0%,
-        white 30%,
-        #313131 30%,
+        white 20%,
+        #313131 20%,
         #313131 100%
     );
     max-width: 800px;
     margin: 0 auto;
     padding: 2em;
     color: #e5e5e5;
-    font-family: TIT;
+    font-family: yah;
     font-weight: bold;
 }
 
 h1 {
-    z-index: 2;
-    font-family: TIT;
-    border: 3px #e5e5e5 solid;
-    padding: 20px;
-    /* background-color: #287377; */
-    margin-bottom: 1.5em;
+    font-size: 4em;
 }
 
 h2 {
@@ -33,6 +28,11 @@ h3 {
     font-weight: 400;
 }
 
+h4 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
 nav a {
     border: 2px #e5e5e5 solid;
     padding: 7px;
@@ -40,6 +40,12 @@ nav a {
     color: #c0b093;
     font-family: sans-serif;
     font-weight: 400;
+}
+
+nav a:hover {
+    color: #377987;
+    font-size: x-large;
+    border-color: #377987;
 }
 
 nav {
@@ -50,11 +56,6 @@ nav {
 img {
     max-width: 100%;
     max-height: 100%;
-}
-
-footer {
-    font-family: sans-serifgftv        ;
-    color: #222222;
 }
 
 .box img {
@@ -86,7 +87,20 @@ footer {
     flex-direction: column;
 }
 
+footer {
+    margin-top: 2em;
+    border: 3px #377987 dotted;
+    padding: 0 4em;
+    font-family: sans-serif;
+    color: #222222;
+}
+
 @font-face {
-    font-family: TIT;
+    font-family: yah;
     src: url(../fonts/Quicksand_Light.otf)
+}
+
+@font-face {
+    font-family: ht;
+    src: url();
 }
