@@ -14,6 +14,20 @@ body {
     font-weight: bold;
 }
 
+img {
+    border-radius: 0.5em;
+}
+
+.himg img {
+    max-width: 20%;
+    align-self: center;
+}
+
+.himg {
+    display: flex;
+    justify-content: space-between;
+}
+
 h1 {
     font-size: 4em;
 }
@@ -35,22 +49,31 @@ h4 {
 
 nav a {
     border: 2px #e5e5e5 solid;
+    border-radius: 0.2em;
     padding: 7px;
+    background: #e5e5e5;
     text-decoration: none;
-    color: #c0b093;
+    color: #222222;
     font-family: sans-serif;
-    font-weight: 400;
+    font-weight: bold;
+    transition: all 250ms ease;
 }
 
 nav a:hover {
-    color: #377987;
-    font-size: x-large;
-    border-color: #377987;
+    color: #e5e5e5;
+    border-color: #e5e5e5;
+    background: #377987;
+}
+
+nav a:focus {
+    color: #e5e5e5;
+    border-color: #e5e5e5;
+    background-color: #377987;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    gap: 1em;
 }
 
 img {
@@ -89,7 +112,8 @@ img {
 
 footer {
     margin-top: 2em;
-    border: 3px #377987 dotted;
+    border: 3px #377987 solid;
+    border-radius: 0.5em;
     padding: 0 4em;
     font-family: sans-serif;
     color: #222222;
