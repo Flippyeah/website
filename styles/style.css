@@ -20,7 +20,7 @@ img {
 
 .himg img {
     max-width: 20%;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .himg {
@@ -63,6 +63,7 @@ nav a:hover {
     color: #e5e5e5;
     border-color: #e5e5e5;
     background: #377987;
+    transform: translateY(2px);
 }
 
 nav a:focus {
